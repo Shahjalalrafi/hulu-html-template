@@ -80,6 +80,11 @@ a:hover {
     border: 2px solid #ccc;
 }
 
+.btn-dark {
+    background: #000;
+    color: #fff;
+}
+
 .sub-link {
     display: block;
     color: #ccc;
@@ -316,6 +321,105 @@ header nav{
     width: 40px;
 }
 
+/* Footer */
+footer {
+    background: #000;
+}
+
+.footer-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    background: #000;
+    color: #333;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer-list ul li {
+    color: rgb(110, 110, 110);
+    padding: 5px 10px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-box {
+    margin: 10% auto;
+    width: 400px;
+    position: relative;
+    animation: modalopen .5s;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-body {
+    background: #fff;
+    color: #000;
+    padding: 40px ;
+    position: relative;
+}
+
+.modal-body .legal {
+    display: block;
+    color: blue;
+}
+
+.modal-body .btn {
+    width: 100%;
+}
+
+.modal img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.form-controll label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-controll input {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+
+.form .form-controll {
+    padding: 20px 0;
+}
+
+.modal .modal-footer {
+    background: #f7f7f9;
+    color: #000;
+    padding: 20px 40px;
+}
+
+.modal .modal-footer a {
+    color: blue;
+}
 
 
 /* media query */
